@@ -18,6 +18,6 @@
   >> Vậy là cách access 2 đường dẫn này hoàn toàn khác nhau và mấu chốt ở đây là thằng admin.html còn etc/passwd thực chất mình chỉ muốn test để xem thử bản chất của bài này như thế nào. Ban đầu payload a/../admin.html tổng là 15 char và payload của mình (hình trên) là 20 char, bây giờ hãy thử thêm 1 ký tự ở chỗ đường dẫn không có thật thử xem điều gì sẽ xảy ra :))
     <img width="1463" height="656" alt="image" src="https://github.com/user-attachments/assets/429aab3d-64e6-4316-a84a-9f8675a51848" /><br>
   💡 Vấn đề đã được giải quyết -> Congratz! The flag is 110V3TrUnC4T10n <br>
-  >> Tóm lại muốn access và đọc được file admin.html thì sau khi ném payload truncated vào thì format (sau khi truncated string) phải có tổng độ dài chuỗi là <b>LẺ :))</b>.
+  >> Tóm lại muốn access và đọc được file admin.html thì sau khi ném payload truncated vào thì format (sau khi truncated string) phải có tổng độ dài chuỗi là <b>LẺ :))</b>.<br>
   Meme -> Bài này thực sự mà không có hint cụ thể thì mình cũng bó tay 🤣🤣
 </p>
