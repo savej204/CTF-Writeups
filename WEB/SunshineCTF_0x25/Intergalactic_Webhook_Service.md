@@ -1,5 +1,5 @@
 # Analyst
-URL: https://2025.sunshinectf.org/challenges#Intergalactic%20Webhook%20Service-11 (source will update later)
+URL: https://2025.sunshinectf.org/challenges#Intergalactic%20Webhook%20Service-11 
 - Tạo một webhook url với url formart hợp lệ http://1.1.1.1 thì nó sẽ trả về json dưới đây:
   
   ```json
@@ -20,7 +20,7 @@ URL: https://2025.sunshinectf.org/challenges#Intergalactic%20Webhook%20Service-1
   }
   ````
   
-- Dòng 27 trong source code đã cho ta câu trả lời rằng `flag` sẽ nằm ở đâu trên server
+- Dòng 27 trong source code đã cho ta câu trả lời rằng `flag` sẽ được server trả về như thế nào
   
   ```python
   class FlagHandler(BaseHTTPRequestHandler):
@@ -38,7 +38,7 @@ URL: https://2025.sunshinectf.org/challenges#Intergalactic%20Webhook%20Service-1
   ````
   > Exploit SSRF vul here !!!
 
-- Test input feild `url` với url formart http://127.0.0.1 thì server trả về notification `IP "127.0.0.1" not allowed`
+- Create webhook url với url formart http://127.0.0.1 thì server trả về notification `IP "127.0.0.1" not allowed`
   
   ```python
     if ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_link_local or ip_obj.is_reserved:
