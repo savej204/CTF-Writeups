@@ -61,6 +61,9 @@
 # Solution
 - Mình tìm thấy thấy một repo https://github.com/taviso/rbndr, mọi người tự đọc và tự tìm hiểu tool này nhé
   
-🔎 Sau khi dùng tool thì mình được một chuỗi kết quả như thế này `7f000001.01010101.rbndr.us`. Phân tích thử thì ta thấy rằng hostname này trước đó được convert một cách có chủ ý. Cụ thể là `DNS server sẽ trả về 1 hoặc nhiều bản ghi A/AAAA (IP)` vậy nên luồng chạy của nó mình sẽ đưa vào sơ đồ phía dưới.
+🔎 Khi dùng tool thì mình được trả một chuỗi kết quả như thế này `7f000001.01010101.rbndr.us`. Phân tích thử thì ta thấy rằng hostname này trước đó được convert một cách có chủ ý. Cụ thể là `DNS server sẽ trả về 1 hoặc nhiều bản ghi A/AAAA (IP)` vậy nên luồng chạy của nó mình sẽ đưa vào sơ đồ phía dưới.
+
+<img width="896" height="481" alt="image" src="https://github.com/user-attachments/assets/90a345a2-e49a-47dd-ba76-f21a07f05ff6" /></br>
+> Write script and enjoy (●'◡'●)
 
 
