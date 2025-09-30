@@ -1,5 +1,5 @@
 # Analyst
-URL: https://2025.sunshinectf.org/challenges#Intergalactic%20Webhook%20Service-11
+URL: https://2025.sunshinectf.org/challenges#Intergalactic%20Webhook%20Service-11 (source will update later)
 - Tạo một webhook url với url formart hợp lệ http://1.1.1.1 thì nó sẽ trả về json dưới đây:
   
   ```json
@@ -66,5 +66,3 @@ URL: https://2025.sunshinectf.org/challenges#Intergalactic%20Webhook%20Service-1
 
 <img width="896" height="481" alt="image" src="https://github.com/user-attachments/assets/90a345a2-e49a-47dd-ba76-f21a07f05ff6" /></br>
 > Write script and enjoy (●'◡'●)
-
-
